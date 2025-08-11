@@ -1,0 +1,5 @@
+# Notas Dìa 25: Revisiòn avanzada
+## Tècnica avanzada màs util
+El rebase intermedio (Dia 22) fue muy ùtil porque me permitiò limpiar el historial antes de fusionar, combinando commits pequeños en uno màs significativo
+## Errores cometidos y còmo los solucionè
+Tuve conflicto al fusionar dos rama feature que modificaban la misma lìnea. Lo resolvì editando manualmente el archivo y combinando los cambios. Tambièn olvidè un submodulo, pero lo corregì con git submodule update --init --recursive.
