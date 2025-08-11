@@ -6,3 +6,4 @@ fi
 if [ "$1" = "list" ]; then
  cat notes.txt
 fi
+if [ -z "$1" ]; then echo "Uso: $0 [add|list]"; exit 1; fi
