@@ -16,4 +16,4 @@ if [ "$1" = "delete" ]; then
  echo "Nota eliminada"
 fi
 
-
+exit 1 # Bug: Rompe el script
